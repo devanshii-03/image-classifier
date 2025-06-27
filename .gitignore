@@ -7,7 +7,6 @@ flower_data.tar.gz
 
 # Ignore Jupyter artifacts
 .ipynb_checkpoints/
-*.html
 
 # Python cache
 __pycache__/
