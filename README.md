@@ -116,8 +116,10 @@ python "Part 2 files/predict.py" path/to/your/flower.jpg checkpoint.pth --top_k 
 
 ## 🧠 Model Architecture & Project Structure
 
-\<details\>
-\<summary\>\<strong\>Model Overview\</strong\> (Click to expand)\</summary\>
+<details>
+<summary>
+<strong>Model Overview</strong> (Click to expand)
+</summary>
 
   - **Base Model**: VGG16 (pre-trained on ImageNet).
   - **Transfer Learning**: Convolutional layers are frozen to retain learned features. The classifier part is replaced and trained from scratch.
@@ -131,10 +133,11 @@ python "Part 2 files/predict.py" path/to/your/flower.jpg checkpoint.pth --top_k 
   - **Optimizer**: Adam optimizer.
   - **Input Image Size**: Images are resized and cropped to `224x224` pixels.
 
-\</details\>
+</details>
 
-\<details\>
-\<summary\>\<strong\>Project File Structure\</strong\> (Click to expand)\</summary\>
+<details>
+<summary>
+  <strong>Project File Structure</strong> (Click to expand)</summary>
 
 ```
 image-classification/
@@ -152,7 +155,7 @@ image-classification/
 └── .gitignore                   # Files/directories to ignore in Git
 ```
 
-\</details\>
+</details>
 
 -----
 
