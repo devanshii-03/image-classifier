@@ -1,0 +1,18 @@
+# Ignore dataset
+flowers/
+flower_data.tar.gz
+
+# Ignore checkpoints
+*.pth
+
+# Ignore Jupyter artifacts
+.ipynb_checkpoints/
+*.html
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+ 
