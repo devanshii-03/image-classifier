@@ -51,7 +51,7 @@ Follow these steps to set up the project environment on your local machine.
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/your-username/image-classification.git](https://github.com/your-username/image-classification.git)
+    git clone https://github.com/devanshii-03/image-classification.git(https://github.com/devanshii-03/image-classification.git)
     cd image-classification
     ```
 
